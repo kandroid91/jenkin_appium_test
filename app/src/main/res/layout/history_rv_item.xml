@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="@dimen/radius_default"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/viewIndicatorColor"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/transaction_greenPlusSign" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <com.asiapay.payyobusiness.custom.controls.CustomTextView
+                    android:id="@+id/tvFromTo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sent_to_or_receive_from"
+                    android:textColor="@color/transaction_lablecolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:font_name="Roboto-Regular.ttf" />
+
+                <com.asiapay.payyobusiness.custom.controls.CustomTextView
+                    android:id="@+id/tvAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/_100_hkd"
+                    android:textColor="@color/transaction_greenPlusSign"
+                    android:textSize="16sp"
+                    app:font_name="Roboto-Regular.ttf" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <com.asiapay.payyobusiness.custom.controls.CustomTextView
+                    android:id="@+id/tvEventType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/moneyreecieved"
+                    android:textColor="@color/navigation_label_color"
+                    android:textSize="12sp"
+                    app:font_name="Roboto-Regular.ttf" />
+
+                <com.asiapay.payyobusiness.custom.controls.CustomTextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/_29th_oct_2019"
+                    android:textColor="@color/navigation_label_color"
+                    android:textSize="12sp"
+                    app:font_name="Roboto-Regular.ttf" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

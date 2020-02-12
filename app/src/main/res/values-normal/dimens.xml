@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- normal Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--&lt;!&ndash; login page dimentions &ndash;&gt;
+    <dimen name="logo_height">220dp</dimen>
+    <dimen name="username_width">250dp</dimen>
+    <dimen name="username_height">50dp</dimen>
+    <dimen name="password_width">250dp</dimen>
+    <dimen name="password_height">50dp</dimen>
+    <dimen name="username_password_left_padding">50dp</dimen>
+    <dimen name="username_password_right_padding">10dp</dimen>
+    <dimen name="button_width">200dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_MyActivity">150dp</dimen>-->
+</resources>

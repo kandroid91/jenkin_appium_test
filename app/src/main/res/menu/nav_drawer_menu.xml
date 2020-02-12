@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">-->
+
+
+    <item
+        android:id="@+id/nav_update_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Update Profile" />
+
+    <item
+        android:id="@+id/nav_scanQr"
+        android:icon="@drawable/ic_qr_code"
+        android:title=" Rider Scan" />
+
+    <item
+        android:id="@+id/nav_bank_account"
+        android:icon="@drawable/ic_account_balance"
+        android:title="Bank Account" />
+
+    <item
+        android:id="@+id/nav_notificationTop"
+        android:icon="@drawable/ic_notification"
+        android:title="Push Notification" />
+
+    <item
+        android:id="@+id/nav_change_language"
+        android:icon="@drawable/ic_language"
+        android:title="Change Language" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_log_out"
+        android:title="Logout" />
+
+
+</menu>

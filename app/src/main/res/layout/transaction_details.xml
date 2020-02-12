@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.history.TransactionDetailsActivity">
+
+    <include
+        android:id="@+id/layout_page_title"
+        layout="@layout/custom_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/tvTranXDoneImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_transaction_done"
+        android:text="@string/hello_blank_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_page_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTranxDoneAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_hkd_red_sign"
+        android:textColor="@color/label_color"
+        android:textSize="25sp"
+        app:font_name="Roboto-Regular.ttf"
+        app:layout_constraintEnd_toEndOf="@+id/tvTranXDoneImg"
+        app:layout_constraintStart_toStartOf="@+id/tvTranXDoneImg"
+        app:layout_constraintTop_toBottomOf="@+id/tvTranXDoneImg" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMoneyReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/money_received_rider"
+        android:textColor="@color/navigation_label_color"
+        android:textSize="@dimen/label_size"
+        app:font_name="Roboto-Regular.ttf"
+        app:layout_constraintEnd_toEndOf="@+id/tvTranxDoneAmount"
+        app:layout_constraintStart_toStartOf="@+id/tvTranxDoneAmount"
+        app:layout_constraintTop_toBottomOf="@+id/tvTranxDoneAmount" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRefund"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button"
+        android:elevation="8dp"
+        android:text="@string/refund"
+        android:textAllCaps="false"
+        android:textColor="@color/blackText"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvMoneyReceived"
+        app:layout_constraintStart_toStartOf="@+id/tvMoneyReceived"
+        app:layout_constraintTop_toBottomOf="@+id/tvMoneyReceived" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/cvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="@dimen/card_margin"
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginEnd="@dimen/card_margin"
+        android:layout_marginRight="@dimen/card_margin"
+        android:background="@color/nav_headerColor_White"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnRefund"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/btnRefund"
+        app:layout_constraintTop_toBottomOf="@+id/btnRefund">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTraxID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/transaction_id"
+            android:textColor="@color/navigation_label_color"
+            android:textSize="@dimen/label_size"
+            app:font_name="Roboto-Regular.ttf" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTranxIdNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/_158200548787"
+            android:textColor="@color/label_color"
+            android:textSize="@dimen/label_size"
+            app:font_name="Roboto-Regular.ttf" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/navigation_label_color" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTraxDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/transaction_date_time"
+            android:textColor="@color/navigation_label_color"
+            android:textSize="@dimen/label_size"
+            app:font_name="Roboto-Regular.ttf" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTraxDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_20_09_2019"
+                android:textColor="@color/label_color"
+                android:textSize="@dimen/label_size"
+                app:font_name="Roboto-Regular.ttf" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTraxTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/_05_07_24"
+                android:textColor="@color/label_color"
+                android:textSize="@dimen/label_size"
+                app:font_name="Roboto-Regular.ttf" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/navigation_label_color" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/description"
+            android:textColor="@color/navigation_label_color"
+            android:textSize="@dimen/label_size"
+            app:font_name="Roboto-Regular.ttf" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/food_panda_order"
+            android:textColor="@color/label_color"
+            android:textSize="@dimen/label_size"
+            app:font_name="Roboto-Regular.ttf" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/navigation_label_color" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

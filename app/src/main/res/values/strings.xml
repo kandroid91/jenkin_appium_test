@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">restaurant-partner-app</string>
+    <string name="cash_out">Enter Amount</string>
+    <string name="linked_bank">Linked Bank</string>
+    <string name="success_msg">Success</string>
+    <string name="amount_500"> $ 500</string>
+
+    <string name="PayYo">PayYoLogo</string>
+    <string name="welcome">Welcome</string>
+    <string name="login2Continues">login To Continues</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forgot Password ?</string>
+
+    <string name="otpSentMob">Enter OTP sent to you on your Registered Mobile No.</string>
+    <string name="excellent">Excellent</string>
+    <string name="exit_app"> Exit app?</string>
+    <string name="PayYoLogoText">PayYo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nav_headerText">Password</string>
+    <string name="nav_headerTextDescription">This is payYo wallet gets rewards coin</string>
+    <string name="raady_to_code">raady to code</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="change_language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="Home">Home</string>
+    <string name="otpText">OTP</string>
+    <string name="verify">Verify</string>
+    <string name="scan">scan</string>
+    <string name="notification">Notification</string>
+    <string name="profle">Profile</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1_50_50">1,505.50</string>
+    <string name="cashout">Cash Out</string>
+    <string name="CurrencyType">HKD</string>
+    <string name="viewall">ViewAll</string>
+    <string name="last_10_transaction">Last 10 Transaction</string>
+    <string name="moneyreecieved">MoneyReecieved</string>
+    <string name="sent_to_or_receive_from">Sent to OR Receive from</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="total_sale_hdk">total sale hdk</string>
+    <string name="transaction_done_hdk">500</string>
+    <string name="money_received_rider">Money Received From Rider</string>
+    <string name="refund">Refund</string>
+    <string name="_158200548787">158200548787</string>
+    <string name="transaction_date_time">transaction Date &amp; Time</string>
+    <string name="_20_09_2019">20/09/2019</string>
+    <string name="description">description</string>
+    <string name="food_panda_order">Food Panda order</string>
+    <string name="_05_07_24">05:07:24</string>
+    <string name="msg_token_fmt">Tokename</string>
+    <string name="enter_the_order_amount">Enter the order amount</string>
+    <string name="save">Save</string>
+    <string name="please_enter_amount_to_withdraw">Please enter amount to withdraw</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="_500">500</string>
+    <string name="available_balance">Transaction Amount</string>
+    <string name="_29th_oct_2019">29th Oct 2019</string>
+    <string name="_100_hkd">100 HKD</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="filter">Filter</string>
+    <string name="history">History</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="name">Name :</string>
+    <string name="hare_rama_restaurant">Red Box cafe</string>
+    <string name="amount">Amount</string>
+    <string name="hint_enter_amount">Enter Amount</string>
+    <string name="Transaction_Details">Transaction Details</string>
+    <string name="scan_results">Payment Confirmation</string>
+    <string name="add_account">Account Details</string>
+    <string name="Notification">Notification</string>
+    <string name="Change_Language">Change Language</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="click_on_filter_button_below">Click on \"Filter\" button below</string>
+
+
+    <string-array name="select_trans">
+        <item>Transaction</item>
+        <item>All</item>
+        <item>Successful</item>
+        <item>Failed</item>
+
+    </string-array>
+</resources>

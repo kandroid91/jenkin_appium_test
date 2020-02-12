@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1052580969075",
+    "firebase_url": "https://restaurant-partner-app-9dc6e.firebaseio.com",
+    "project_id": "restaurant-partner-app-9dc6e",
+    "storage_bucket": "restaurant-partner-app-9dc6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052580969075:android:0e69d0b3d4c3b5ff24c806",
+        "android_client_info": {
+          "package_name": "com.asiapay.payyobusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052580969075-0utmq4756nfp1tl94c5d8aks2okn4gp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asiapay.payyobusiness",
+            "certificate_hash": "3f0ffdac9e99ffb90a337483081e1e49403309f3"
+          }
+        },
+        {
+          "client_id": "1052580969075-cj2kgersk6jp5iaok3dutuam3jcnr5qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaGkDK4NDA3c5V6qNHhwmzxyeNYe61s5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052580969075-cj2kgersk6jp5iaok3dutuam3jcnr5qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.ScanResultActivity">
+
+    <include
+        android:id="@+id/layout_page_title"
+        layout="@layout/custom_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvNameMerchant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="end"
+        android:text="@string/name"
+        android:textColor="@color/transaction_lablecolor"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/layout_page_title"
+        app:layout_constraintTop_toBottomOf="@+id/layout_page_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPartnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:text="@string/hare_rama_restaurant"
+        android:textColor="@color/transaction_lablecolor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNameMerchant"
+        app:layout_constraintStart_toEndOf="@+id/tvNameMerchant"
+        app:layout_constraintTop_toTopOf="@+id/tvNameMerchant" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="end"
+        android:text="@string/amount"
+        android:textColor="@color/transaction_lablecolor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvNameMerchant"
+        app:layout_constraintStart_toStartOf="@+id/tvNameMerchant"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameMerchant" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtScanResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:text="No data found..!!"
+        android:textColor="@color/transaction_lablecolor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvAmount"
+        app:layout_constraintStart_toEndOf="@+id/tvAmount"
+        app:layout_constraintTop_toTopOf="@+id/tvAmount" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfirmAmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/logoColor"
+        android:text="@string/confirm"
+        android:textAllCaps="false"
+        android:textColor="@color/nav_headerColor_White"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtScanResult"
+        app:layout_constraintStart_toStartOf="@+id/txtScanResult"
+        app:layout_constraintTop_toBottomOf="@+id/txtScanResult" />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
