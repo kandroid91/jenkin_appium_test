@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.asiapay.payyobusiness.R;
 import com.asiapay.payyobusiness.home.HomeActivity;
@@ -42,6 +43,7 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
         initUI();
         addEventListener();
         loginPresenter = new LoginPresenter(this, this);
+        Toast.makeText(LoginActivity.this, "This is for test", Toast.LENGTH_LONG).show();
     }
 
     @Override
