@@ -43,7 +43,6 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
         initUI();
         addEventListener();
         loginPresenter = new LoginPresenter(this, this);
-        Toast.makeText(LoginActivity.this, "This is for test", Toast.LENGTH_LONG).show();
     }
 
     @Override
